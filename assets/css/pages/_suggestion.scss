@@ -1,0 +1,146 @@
+#suggestion-page{
+    margin-top: 50px;
+    .suggestion-container{
+        width: 90%;
+        margin: auto;
+        .suggestion-page-head{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            .suggestion-head-left{            
+                display: flex;
+                .suggestion-page-back{
+                    margin-right: 20px;
+                    a{
+                        font-size: 32px;
+                        color: #1C2541;
+                    }
+                }
+                .suggestion-page-head-text{
+                    h1{
+                        color: #1C2541;
+                    }
+                }
+            }
+            .suggestion-head-right{
+                display: flex;
+                i{
+                    margin-left: 10px;
+                    border: 2px solid #1C2541;
+                    border-radius: 8rem;
+                    padding: 5px 10px;
+                    color: #1C2541;
+                }
+            }
+        }
+        .suggestion-page-content{
+            margin-top: 50px;
+            .swiper {
+              width: 100%;
+              height: 100%;
+            }
+            .swiper-slide {
+                    text-align: center;
+                    font-size: 18px;
+                    display: -webkit-box;
+                    display: -ms-flexbox;
+                    display: -webkit-flex;
+                    display: flex;
+                    justify-content: center;
+                    align-items: center;
+                    .suggestion-box{
+                        margin-left: 10px;
+                        overflow: auto;
+                        height: 350px;
+                        background-color: #fff;
+                        border: 1px solid #1C2541;
+                        color: #1C2541;
+                        padding: 40px 20px;
+                        overflow-wrap: break-word;
+                        hyphens: auto;
+                    .suggestion-box-head{
+                        h4{
+                            font-weight: bold;
+                        }
+                    }
+                    .suggestion-box-text{
+                        overflow: auto;
+                        margin-top: 20px;
+                        p{
+                            font-size: 16px;
+                            text-align: justify;
+                        }
+                    }
+                    .suggestion-box-btn{
+                        margin-top: 20px;
+                        a{
+                            text-transform: uppercase;
+                            font-size: 16px;
+                            font-weight: 400;
+                            color: #1C2541;
+                            border: 1px solid #1C2541;
+                            padding: 8px 40px;
+                            border-radius: 8rem;
+                            transition: .5s ease;
+                            &:hover{
+                                color: #fff;
+                                background-color: #1C2541;
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media(min-width:276px) and (max-width:576px){
+    #suggestion-page{
+        margin-top: 50px;
+        .suggestion-container{
+            width: 90%;
+            margin: auto;
+            .suggestion-page-head{
+                display: flex;
+                justify-content: space-between;
+                .suggestion-head-left{            
+                    display: flex;
+                    .suggestion-page-back{
+                        margin-right: 20px;
+                        a{
+                            font-size: 24px;
+                            color: #1C2541;
+                        }
+                    }
+                    .suggestion-page-head-text{
+                        h1{
+                            color: #1C2541;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+@media(min-width:576px) and (max-width:768px){
+    #suggestion-page{
+        margin-top: 50px;
+        .suggestion-container{
+            width: 90%;
+            margin: auto;
+            .suggestion-page-head{
+                display: flex;
+                justify-content: space-between;
+                .suggestion-head-left{            
+                    display: flex;
+                    .suggestion-page-head-text{
+                        margin-top: 8px;
+                        h1{
+                            font-size: 30px;
+                            color: #00AFC6;
+                        }
+                    }
+                }
+            }
+        }
+    }
+}

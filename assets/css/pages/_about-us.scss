@@ -1,0 +1,174 @@
+.page-location{
+    padding-top: 120px;
+    .page-links{
+        span{
+            color: #3A506B !important;
+            a{
+                color: #A9A5BA !important;
+            }
+            i{
+                color: #A9A5BA !important;
+            }
+        }
+    }
+}
+#about-us-page{
+    margin-top: 50px;
+    .about-us-container{
+        width: 90%;
+        margin: auto;
+        .about-page-head{
+            display: flex;
+            .about-page-back{
+                margin-right: 20px;
+                a{
+                    font-size: 32px;
+                    color: #1C2541;
+                }
+            }
+            .about-page-head-text{
+                h1{
+                    color: #1C2541;
+                }
+            }
+        }
+        .about-us-content{
+            margin-top: 50px;
+            .about-content-left{
+                width: 90%;
+                margin: auto;
+                .about-content-text{
+                    overflow-wrap: break-word;
+                    hyphens: auto;
+                    p{
+                        margin: 0%;
+                        text-align: justify;
+                    }
+                }
+                .about-content-btn{
+                    width: 90%;
+                    margin: auto;
+                    margin-top: 50px;
+                    a{
+                        color: #fff;
+                        background-color: #A9A5BA;
+                        padding: 8px 15px;
+                        transition: .5s ease;
+                        span{
+                            margin-left: 5px;
+                        }
+                        &:hover{
+                            background-color: #1C2541;
+                        }
+                    }
+                }
+            }
+            .about-content-img-box{
+                .about-content-img{
+                    width: 90%;
+                    height: auto;
+                    img{
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(min-width:276px) and (max-width:576px){
+    #about-us-page{
+        margin-top: 50px;
+        .about-us-container{
+            width: 90%;
+            margin: auto;
+            .about-page-head{
+                display: flex;
+                .about-page-back{
+                    margin-right: 20px;
+                    a{
+                        font-size: 32px;
+                        color: #1C2541;
+                    }
+                }
+                .about-page-head-text{
+                    h1{
+                        margin-top: 8px;
+                        color: #1C2541;
+                    }
+                }
+            }
+            .about-us-content{
+                margin-top: 50px;
+                .about-content-left{
+                    width: 100%;
+                    margin: auto;
+                    margin-bottom: 30px;
+                    .about-content-text{
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    .about-content-btn{
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 50px;
+                    }
+                }
+                .about-content-img-box{
+                    .about-content-img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(min-width:576px) and (max-width:768px){
+    #about-us-page{
+        margin-top: 50px;
+        .about-us-container{
+            width: 90%;
+            margin: auto;
+            .about-page-head{
+                display: flex;
+                .about-page-back{
+                    margin-right: 20px;
+                    a{
+                        font-size: 32px;
+                        color: #00AFC6;
+                    }
+                }
+                .about-page-head-text{
+                    h1{
+                        margin-top: 4px;
+                        color: #00AFC6;
+                    }
+                }
+            }
+            .about-us-content{
+                margin-top: 50px;
+                .about-content-left{
+                    width: 100%;
+                    margin: auto;
+                    margin-bottom: 30px;
+                    .about-content-text{
+                        p{
+                            font-size: 14px;
+                        }
+                    }
+                    .about-content-btn{
+                        display: flex;
+                        justify-content: center;
+                        margin-top: 50px;
+                    }
+                }
+                .about-content-img-box{
+                    .about-content-img{
+                        width: 100%;
+                    }
+                }
+            }
+        }
+    }
+}

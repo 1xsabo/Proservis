@@ -1,0 +1,146 @@
+#partners-page{
+    margin-top: 150px;
+    margin-bottom: 150px;
+    .partners-page-head{
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        .partners-head-left{            
+            display: flex;
+            .partners-page-back{
+                margin-right: 20px;
+                a{
+                    font-size: 32px;
+                    color: #1C2541;
+                }
+            }
+            .partners-page-head-text{
+                h1{
+                    color: #1C2541;
+                }
+            }
+        }
+    }
+    .partners-container{
+        width: 90%;
+        margin: auto;
+        .partners-content{
+            margin-top: 80px;
+            .swiper {
+            width: 100%;
+            height: 100%;
+            }
+            .swiper-slide {
+            height: 300px;
+            text-align: center;
+            font-size: 18px;
+            display: -webkit-box;
+            display: -ms-flexbox;
+            display: -webkit-flex;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            }
+            .partners-box{
+                overflow-wrap: break-word;
+                hyphens: auto;
+                position: relative;
+                .partners-img{
+                    width: 300px;
+                    height: 200px;
+                    img{
+                        object-fit: contain;
+                        width: 100%;
+                        height: 100%;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(min-width:276px) and (max-width:576px){
+    #partners-page{
+        .partners-page-head{
+            display: flex;
+            .partners-head-left{            
+                display: flex;
+                .partners-page-back{
+                    margin-right: 20px;
+                    a{
+                        font-size: 32px;
+                        color: #00AFC6;
+                    }
+                }
+                .partners-page-head-text{
+                    margin-top: 10px;
+                    h1{
+                        font-size: 20px;
+                        color: #00AFC6;
+                    }
+                }
+            }
+            .partners-head-right{
+                display: flex;
+                i{
+                    margin-left: 10px;
+                    border: 2px solid #00AFC6;
+                    border-radius: 8rem;
+                    padding: 5px 10px;
+                    color: #00AFC6;
+                }
+            }
+        }
+        .partners-container{
+            .partners-content{
+                .partners-box{
+                    .partners-img{
+                        width: 250px;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
+@media(min-width:576px) and (max-width:768px){
+    #partners-page{
+        .partners-page-head{
+            .partners-head-left{            
+                display: flex;
+                .partners-page-back{
+                    margin-right: 20px;
+                    a{
+                        font-size: 32px;
+                        color: #00AFC6;
+                    }
+                }
+                .partners-page-head-text{
+                    margin-top: 5px;
+                    h1{
+                        color: #00AFC6;
+                    }
+                }
+            }
+            .partners-head-right{
+                display: flex;
+                i{
+                    margin-left: 10px;
+                    border: 2px solid #00AFC6;
+                    border-radius: 8rem;
+                    padding: 5px 10px;
+                    color: #00AFC6;
+                }
+            }
+        }
+        .partners-container{
+            .partners-content{
+                .partners-box{
+                    .partners-img{
+                        width: 250px;
+                        height: 200px;
+                    }
+                }
+            }
+        }
+    }
+}
